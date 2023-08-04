@@ -35,6 +35,5 @@ public class HelloApplication extends Application implements EventHandler<Action
     @Override
     public void handle(ActionEvent actionEvent) {
         System.out.println("Yeaaaah");
-        System.out.println("zxc");
     }
 }
