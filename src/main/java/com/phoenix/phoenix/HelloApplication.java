@@ -23,8 +23,6 @@ public class HelloApplication extends Application implements EventHandler<Action
         borderPane.setCenter(button);
         button.setOnAction(this);
 
-
-
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
@@ -37,5 +35,6 @@ public class HelloApplication extends Application implements EventHandler<Action
     @Override
     public void handle(ActionEvent actionEvent) {
         System.out.println("Yeaaaah");
+        System.out.println("zxc");
     }
 }
