@@ -24,7 +24,7 @@ public class HelloApplication extends Application implements EventHandler<Action
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                System.out.println("Hello!");
+                System.out.println("HIIIII!");
             }
         });
 
